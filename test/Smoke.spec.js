@@ -13,9 +13,10 @@ describe('EmailInputField', () => {
   const result = renderer.getRenderOutput();
 
 
-  it('root element should be a div', () => {
+  it('root element defaultProps type should be text', () => {
     // expect(wrapper.type()).to.eql('div');
-    expect(result.type).to.eql('div');
+    // expect(result.type).to.eql('div');
+    expect(result.type.defaultProps.type).to.eql('text');
   });
 
 });
