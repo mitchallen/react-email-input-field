@@ -103,61 +103,7 @@ $ npm start
 To test, go to the root folder and type (sans __$__):
 
     $ npm test
-    
-## Component Testing
-
-### Prerequisite
-
-If you've never installed __create-react-app__ (you may need to use ```sudo```):
-
-```
-$ npm install -g create-react-app
-```
-
-### Create a local npm link
-
-In the original component folder (you may need to use ```sudo```):
-
-```
-$ npm link
-```
-
-### Create a test package
-
-Create a root test folder and then do the following:
-
-```
-$ create-react-app react-email-input-field-test
-$ cd react-email-input-field-test
-$ npm link @mitchallen/react-email-input-field
-```
-
-### Modify src/App.js
-
-1: Add this line near the top:
-
-```
-import EmailInputField from '@mitchallen/react-email-input-field';
-```
-
-__NOTE:__ EmailInputField must be Capitalized or component won't render.
-
-2: Somewhere in the middle of the __render__ method add this line:
-
-```
-<EmailInputField />
-```
-
-### Run The Test App
-
-```
-$ npm start
-```
-
-### Cleanup
-
-Remember to unlink when done.
-   
+       
 * * *
  
 ## Repo(s)
@@ -175,6 +121,10 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 * * *
 
 ## Version History
+
+#### Version 0.1.2
+
+* Updated documentation
 
 #### Version 0.1.1
 
