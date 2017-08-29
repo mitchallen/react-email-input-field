@@ -122,6 +122,11 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 
 ## Version History
 
+#### Version 0.1.3
+
+* Cleaned up react and prop-types dependencies
+* React is now a peer dependency and assumes parent project will install
+
 #### Version 0.1.2
 
 * Updated documentation
