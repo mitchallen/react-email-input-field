@@ -1,6 +1,6 @@
 {
   "name": "@mitchallen/react-email-input-field",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "EmailInputField component",
   "main": "build/index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   "author": "Mitch Allen",
   "license": "MIT",
   "peerDependencies": {
-    "react": "^15.6.1"
+    "react": ">=15.6.1"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
