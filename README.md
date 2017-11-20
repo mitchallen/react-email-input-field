@@ -122,6 +122,10 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 
 ## Version History
 
+#### Version 0.1.6
+
+* updated react peer dependency to user '>=' instead of '^'
+
 #### Version 0.1.5
 
 * updated .circleci/config.yml to install react peer dependency

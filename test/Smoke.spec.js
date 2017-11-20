@@ -16,6 +16,7 @@ describe('EmailInputField', () => {
   it('root element defaultProps type should be text', () => {
     // expect(wrapper.type()).to.eql('div');
     // expect(result.type).to.eql('div');
+    console.log(result);
     expect(result.type.defaultProps.type).to.eql('text');
   });
 
